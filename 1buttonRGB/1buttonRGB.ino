@@ -31,24 +31,48 @@ void loop()
      case 1:
       digitalWrite(ledverm, HIGH);
       digitalWrite(ledverde, LOW);
-      digitalWrite(ledazul, HIGH);
+      digitalWrite(ledazul, LOW);
      break;
   
      case 2:
       digitalWrite(ledverm, LOW);
       digitalWrite(ledverde, HIGH);
-      digitalWrite(ledazul, HIGH);
-     break;
-  
-     case 3:
-      digitalWrite(ledverm, HIGH);
-      digitalWrite(ledverde, HIGH);
       digitalWrite(ledazul, LOW);
      break;
   
-     case 4:
-      estado = 0;
+     case 3:
+      digitalWrite(ledverm, LOW);
+      digitalWrite(ledverde, LOW);
+      digitalWrite(ledazul, HIGH);
      break;
+  
+     case 4:
+      digitalWrite(ledverm, LOW);
+      digitalWrite(ledverde,HIGH);
+      digitalWrite(ledazul, HIGH);
+     break;
+    
+    case 5:
+      digitalWrite(ledverm, HIGH);
+      digitalWrite(ledverde, LOW);
+      digitalWrite(ledazul, HIGH);
+    break;
+    
+    case 6:
+      digitalWrite(ledverm, HIGH);
+      digitalWrite(ledverde, HIGH);
+      digitalWrite(ledazul, LOW);
+    break;
+    
+    case 7:
+      digitalWrite(ledverm, HIGH);
+      digitalWrite(ledverde, HIGH);
+      digitalWrite(ledazul, HIGH);
+    break;
+    
+    case 8:
+     estado =0;
+    break;
   }
 
 }
